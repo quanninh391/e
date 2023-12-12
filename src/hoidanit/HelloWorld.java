@@ -3,10 +3,10 @@ package hoidanit;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world with java and Hỏi Dân IT");
-		System.out.println("Hello world with java and Hỏi Dân IT");
-		System.out.println("Hello world with java and Hỏi Dân IT");
-		System.out.println("Hello world with java and Hỏi Dân IT");
+
+		int test = 5 + 9 * 3 - 10 / 2; // 27
+
+		System.out.println(" check test : " + test);
 
 	}
 
