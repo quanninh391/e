@@ -3,8 +3,9 @@ package chapter4;
 public class Student {
 
 	// class attributes
-	String name;
-	int age;
+	private String name;
+	private int age; // default
+	private String address;
 
 	public Student() {
 
@@ -15,13 +16,40 @@ public class Student {
 		this.age = age;
 	}
 
-	// class method
-	void learnJava() {
-		System.out.println("Learn Java with Youtube Hỏi Dân IT");
+	public String getName() { // getter
+		return name;
 	}
 
-	String getAge() {
-		return "Hỏi Dân IT";
+	public void setName(String name) { // setter
+		this.name = name;
 	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+//	public String getName() {
+//		return this.name;
+//	}
+//
+//	public int getAge() {
+//		return this.age;
+//	}
+//
+//	public void setName(String name) {
+//		this.name = name;
+//	}
 
 }
