@@ -1,7 +1,7 @@
 package chapter6;
 
 public class Vehicle {
-	private String brand = "Ford"; // Vehicle attribute
+	protected String brand = "Ford"; // Vehicle attribute
 
 	public void honk() { // Vehicle method
 		System.out.println("Tuut, tuut!");
