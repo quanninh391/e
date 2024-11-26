@@ -16,11 +16,7 @@ export default function Home() {
           <li className="mb-2">
             Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-<<<<<<< HEAD
-              src/app/page.tsx sửa lần 1s
-=======
-              src/app/page.tsx sửa lần 1
->>>>>>> 616474aa12edc91fc8fc94e77e6b6526944ff2ac
+              src/app/page.tsx làm đến đây rồ
             </code>
             .
           </li>
